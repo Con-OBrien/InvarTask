@@ -9,10 +9,10 @@ public class SpringBootBoilerplateApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(SpringBootBoilerplateApplication.class, args);
-		useEndpoints();
+		//useEndpoints();
 	}
 
-	private static void useEndpoints() {
+	/*private static void useEndpoints() {
 
 		String baseUrl = "http://localhost:8080/api/credit-data";
 
@@ -38,6 +38,6 @@ public class SpringBootBoilerplateApplication {
 		DebtDetails debtDetails = restTemplate.getForObject(baseUrl + "/debt/" + ssn, DebtDetails.class);
 		System.out.println("Debt Details for SSN " + ssn + ":");
 		System.out.println(debtDetails);
-	}
+	}*/
 
 }
